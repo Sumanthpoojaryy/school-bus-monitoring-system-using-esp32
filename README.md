@@ -50,7 +50,9 @@ In conclusion, the integration of GPS modules and RFID technology into school bu
 5)connecting wire
 6)RFID card and reader
 
-![Mind Map]![image](https://github.com/Sumanthpoojaryy/school-bus-monitoring-system-using-esp32/assets/149647214/d5efff4a-54f3-4ad8-85c7-15d5ba3d5f22)
+![Mind Map]![image]![MindMap](https://github.com/Sumanthpoojaryy/school-bus-monitoring-system-using-esp32/assets/149647214/0440242b-6262-4ef3-8df1-5d0901ac5ccc)
 
-![Untitled (1)](https://github.com/Sumanthpoojaryy/school-bus-monitoring-system-using-esp32/assets/149505346/b582935d-7732-4f6a-9da3-bd128c4189e8)
+
+![Untitled (1)]![FlowChart](https://github.com/Sumanthpoojaryy/school-bus-monitoring-system-using-esp32/assets/149647214/6a07e987-7861-4be8-a030-d060aeda4e69)
+
 
