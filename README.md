@@ -1,4 +1,4 @@
-# school-bus-monitoring-system-using-esp32
+# school-bus-attendance-system-using-esp32
  **Aim:**
  Automate the tracking of student attendance during bus rides using RFID cards. Provide real-time tracking of the school bus using RFID technology. 
 
