@@ -82,7 +82,6 @@ In conclusion, the integration of GPS modules and RFID technology into school bu
 SoftwareSerial SIM900(2, 3); // gsm module connected here
 String textForSMS;
 SoftwareSerial SUART(0,1 ); //SRX = DPin-2; STX = DPin-3
-
 #define SS_PIN 10
 #define RST_PIN 9
 MFRC522 mfrc522(SS_PIN, RST_PIN);  
@@ -96,15 +95,12 @@ Servo myServo;      // Create MFRC522 instance.
 #define d7 3 
 // initialize the library with the numbers of the interface pins
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
-
 // parents numbers 
-
 String f1001 = "+919019262751"; // student1 father cell phone number
 String f1002 = "+917499992310"; 
 String f1003 = "+917499992310"; 
 
 void setup() {
-  
   myServo.attach(8);
         Serial.begin(9600); 
          SUART.begin(9600);       // Nodemcu is connected over here
@@ -127,8 +123,6 @@ void setup() {
 }
 
 void loop() {
-        
-  
         // Prepare key - all keys are set to FFFFFFFFFFFFh at chip delivery from the factory.
         MFRC522::MIFARE_Key key;
         for (byte i = 0; i < 6; i++) {
